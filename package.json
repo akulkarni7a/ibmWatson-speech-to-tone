@@ -1,0 +1,25 @@
+{
+  "name": "ibmwatson-speech-to-tone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askakdagr8/ibmWatson-speech-to-tone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askakdagr8/ibmWatson-speech-to-tone/issues"
+  },
+  "homepage": "https://github.com/askakdagr8/ibmWatson-speech-to-tone#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "watson-developer-cloud": "^3.0.3"
+  }
+}
